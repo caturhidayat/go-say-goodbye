@@ -1,5 +1,5 @@
 package go_say_goodbye
 
-func SayGoodbye() string {
-	return "GoodBye!"
+func SayGoodbye(name string) string {
+	return "GoodBye " + name
 }
